@@ -57,7 +57,7 @@ img.pixies:hover{
   img.Interpol15thTourMain{
   margin: 0px 15px 15px 0px;
   float: left;
-  clear: left;
+  clear: both;
   opacity: 1;
   }
 img.Interpol15thTourMain:hover{
