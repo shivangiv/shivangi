@@ -1,0 +1,77 @@
+* { box-sizing: border-box;}
+
+body {
+  font-family: Tahoma;
+  background: url(stripes.png);
+  background-color: turquoise;
+}
+
+h1, h2, h3 { padding: 15px 10px; }
+
+h1 {
+  background-color: white;
+  color: purple;
+  text-align: center;
+}
+
+h2, h3 {
+  background-color: purple;
+  color: white;
+  text-align: center;
+  
+}
+
+h2:hover, h3:hover {
+  background-color: white;
+  color: purple;
+}
+
+.content {
+  width: 40%;
+  margin-right: 10%;
+  float: right;
+}
+
+p {
+  padding: 10px 30px;
+  text-align: justify;
+
+  border-right: 1px solid purple;
+  border-left: 4px solid purple;
+
+  padding-left: 10px;
+
+  background-color: #eee;
+  }
+
+p.para {
+  border: none;
+  color: black;
+  font-weight: bold;
+
+}
+
+a, a:visited {
+  color: purple;
+}
+
+table {
+	border: solid purple;
+  width: 100%;
+  color: purple;
+}
+th, td {
+    border-color: purple;
+    padding: 8px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+tr{
+	background-color: #eee;
+}
+
+img {
+  border: 2px solid purple;
+  width: 100%;
+}

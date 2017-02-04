@@ -1,0 +1,86 @@
+
+h1{
+  color: black;
+  text-align: center;
+  font-family: Impact;
+  font-weight: bold;
+  padding-top: 100px;
+  font-family: Courier;
+  }
+body{
+  background-image: url("336H.jpg"); 
+  padding:30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+.content{
+
+float:right;
+clear:right;
+}
+ul {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: italic;
+
+
+}
+table {
+  border:solid black;
+   
+  border-width: 5px;
+  color: black;
+  font-weight: bold;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+tr:hover{
+  background-color: lightblue;
+}
+
+img.pixies{
+  margin: 0px 15px 15px 0px;
+  float: left;
+  clear: left;
+  opacity: 1;
+  }
+img.pixies:hover{
+  opacity: 0.9;
+  }
+  img.Interpol15thTourMain{
+  margin: 0px 15px 15px 0px;
+  float: left;
+  clear: left;
+  opacity: 1;
+  }
+img.Interpol15thTourMain:hover{
+  opacity: 0.9;
+  }
+
+.para {
+  color: black;
+  font-family: Helvetica;
+  text-align: left;
+  font-weight: normal;
+  font-size: 25px;
+  padding-bottom: 35px;
+  }
+
+  h2{ font-size: 32px;
+    color: black;
+     text-align: left;
+
+  }
+  h3 {
+    color:black;
+    font-weight: bold;
+    font-size: 35px; 
+  }
+
