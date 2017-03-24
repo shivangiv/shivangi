@@ -7,7 +7,8 @@ function onLoad(){
 			var jsonObj = JSON.parse(xhttp.responseText);
 			var flag = 1;
 			console.log(jsonObj.length);
-			for (var i = 0; i < jsonObj.length; i++) {
+			for (var i = 0; i < jsonObj.length; i++) 
+			{
 				if (jsonObj[i].name == name)
 				{
 					document.getElementById("demo").innerHTML = "For "+name+",<br>Course : "+jsonObj[i].course+"<br>Theory lectures conducted: : "+jsonObj[i].t_lec_conducted+"<br>Theory lectures attended:"+jsonObj[i].t_lec_attended+"<br> Labs conducted:"+jsonObj[i].labs_conducted+"<br> Labs attended:"+jsonObj[i].labs_attended;
@@ -17,10 +18,12 @@ function onLoad(){
 				{
 					flag = 0;
 				}
-				if (flag == 0) {
+				
+				if (flag == 0) 
+				{
 					document.getElementById("demo").innerHTML = "Incorrect Name";	
 				}
-			
+			flag=1;
 
 			}
 
