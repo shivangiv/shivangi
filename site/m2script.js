@@ -23,7 +23,7 @@ function onLoad(){
 				{
 					document.getElementById("demo").innerHTML = "Incorrect Name";	
 				}
-			flag=1;
+			flag++;
 
 			}
 
