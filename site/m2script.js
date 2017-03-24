@@ -34,6 +34,6 @@ function onLoad(){
 				}
 		}
 	};
-	xhttp.open("GET","data.json",true);
+	xhttp.open("GET","m2data.json",true);
 	xhttp.send(null);
 }
