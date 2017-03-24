@@ -1,11 +1,11 @@
 [
 	{
-		"name:":" name1  ",
+		"name":" Shivangi  ",
 		"course:":" Web programming  ",
-		"t_lec_conducted:" :20,
-		"tlec_attended:" :17,
+		"t_lec_conducted" :20,
+		"tlec_attended" :17,
 		"Labs_conducted": 10,
-		"labs_attended:": 10
+		"labs_attended": 10
 
 
 
@@ -13,12 +13,12 @@
 
 	{
 
-		"name:":" name2 ",
-		"course:":" Operating Systems  ",
-		"Theory lectures conducted:" :20,
-		"Theory lectures attended:" :14,
-		"Labs conducted": 10,
-		"labs attended:": 8
+		"name":" Akshit",
+		"course":" Operating Systems  ",
+		"t_lec_conducted" :20,
+		"tlec_attended" :14,
+		"Labs_conducted": 10,
+		"labs_attended": 8
 
 
 
