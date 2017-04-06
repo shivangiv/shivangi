@@ -8,7 +8,7 @@ function onLoad(){
 			var flag = 1;
 			console.log(jsonObj.length);
 			var i=0;
-			console.log("Testing 1.0");
+			console.log("Testing 1.1");
 			for (i = 0; i < jsonObj.length; i++) 
 			{
 				if (jsonObj[i].name == name)
