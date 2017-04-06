@@ -8,11 +8,13 @@ function onLoad(){
 			var flag = 1;
 			console.log(jsonObj.length);
 			var i=0;
+			console.log("Testing 1.0");
 			for (i = 0; i < jsonObj.length; i++) 
 			{
 				if (jsonObj[i].name == name)
 				{
 					document.getElementById("demo").innerHTML = "For "+name+",<br>Course : "+jsonObj[i].course+"<br>Theory lectures conducted: : "+jsonObj[i].t_lec_conducted+"<br>Theory lectures attended:"+jsonObj[i].t_lec_attended+"<br> Labs conducted:"+jsonObj[i].labs_conducted+"<br> Labs attended:"+jsonObj[i].labs_attended;
+					console.log(jsonObj);
 					flag = 1;
 					break;
 				}
