@@ -2,18 +2,18 @@
 	{
 		"name:":"name1",
 		"course:":"Web programming",
-		"t_lec_conducted:" :20,
-		"tlec_attended:" :17,
-		"Labs_conducted": 10,
-		"labs_attended:": 10
+		"t_lec_conducted" :20,
+		"t_lec_attended" :17,
+		"labs_conducted": 10,
+		"labs_attended": 10
 	},
 	{
 
 		"name:":"name2",
 		"course:":"Operating Systems",
-		"Theory lectures conducted:" :20,
-		"Theory lectures attended:" :14,
-		"Labs conducted": 10,
-		"labs attended:": 8
+		"t_lec_conducted:" :20,
+		"t_lec_attended" :14,
+		"labs_conducted": 10,
+		"labs_attended": 8
 	}
 ]
