@@ -9,12 +9,15 @@ function onLoad(){
 			console.log(jsonObj.length);
 			console.log(jsonObj.name)
 			var i=0;
+			var j=0;
 			console.log("Testing 1.1");
-			for (i = 0; i < jsonObj.length; i++) 
+			for (i in jsonObj.data) 
 			{
-				if (jsonObj[i].name == name)
+				for( j in jsonObj.data[i].course)
 				{
-					document.getElementById("demo").innerHTML = "For "+name+",<br>Course : "+jsonObj[i].course+"<br>Theory lectures conducted: : "+jsonObj[i].t_lec_conducted+"<br>Theory lectures attended:"+jsonObj[i].t_lec_attended+"<br> Labs conducted:"+jsonObj[i].labs_conducted+"<br> Labs attended:"+jsonObj[i].labs_attended;
+				if (jsonObj.data[i].name == name)
+				{
+					document.getElementById("demo").innerHTML = "For "+name+",<br>jsonObj.data.course[j];
 					console.log(jsonObj);
 					flag = 1;
 					break;
@@ -27,6 +30,7 @@ function onLoad(){
 				if (flag == 0) 
 				{
 					document.getElementById("demo").innerHTML = "Incorrect Name";	
+				}
 				}
 			}
 
