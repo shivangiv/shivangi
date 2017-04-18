@@ -7,6 +7,7 @@ function onLoad(){
 			var jsonObj = JSON.parse(xhttp.responseText);
 			var flag = 1;
 			console.log(jsonObj.length);
+			console.log(jsonObj.name)
 			var i=0;
 			console.log("Testing 1.1");
 			for (i = 0; i < jsonObj.length; i++) 
