@@ -32,14 +32,11 @@ function onLoad(){
 					document.getElementById("demo").innerHTML = "Incorrect Name";	
 				}
 				}
-			}
+			
 
-				if(jsonObj[i].t_lec_attended<=(0.8*jsonObj[i].t_lec_conducted))
-					document.getElementById("demo").innerHTML ="Defaulter";
-					
-				else if (jsonObj[i].labs_attended<=(0.8*jsonObj[i].labs_conducted))
-					document.getElementById("demo").innerHTML ="Defaulter";
+			
 
+		}
 		}
 	};
 	xhttp.open("GET","m2data.json",true);
