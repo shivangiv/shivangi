@@ -17,7 +17,7 @@ function onLoad(){
 				{
 				if (jsonObj.data[i].name == name)
 				{
-					document.getElementById("demo").innerHTML = "For "+name+",<br>jsonObj.data.course[j];
+					document.getElementById("demo").innerHTML = "For "+name+" "+jsonObj.data.course[j];
 					console.log(jsonObj);
 					flag = 1;
 					break;
