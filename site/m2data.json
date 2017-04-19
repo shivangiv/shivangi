@@ -1,14 +1,19 @@
-{
-	"data": [
+[
 	{
-		"name:":"name1",
-		"course:": ["Web programming",
-		"20","17", "10", "10" ]
+		"name":"name1",
+		"course":"Web programming",
+		"t_lec_conducted":20,
+		"t_lec_attended":17,
+		"labs_conducted":10,
+		"labs_attended":10
 	},
 	{
 
-		"name:":"name2",
-		"course:": ["Operating Systems","20","14","10","8"]
+		"name":"name2",
+		"course":"Operating Systems",
+		"t_lec_conducted":20,
+		"t_lec_attended":14,
+		"labs_conducted":10,
+		"labs_attended":8
 	}
 ]
-}
