@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded",
 	$ajaxUtils
        .sendGetRequest("m3data.json", 
             function (res) {
-              var message = "";
+              var message = "  ";
               var input=
               document.getElementById("in").value;
                 console.log("input: "+input);
