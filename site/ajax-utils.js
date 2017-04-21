@@ -35,7 +35,9 @@ ajaxUtils.sendGetRequest =
   };
 
 
-
+// Only calls user provided 'responseHandler'
+// function if response is ready
+// and not an error
 function handleResponse(request,
                         responseHandler,
                         isJsonResponse) {
