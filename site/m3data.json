@@ -1,0 +1,57 @@
+[
+	{
+		"name":"shivangi",
+		"sap-id": 70011015089,
+		"email":"svashi1997@gmail.com",
+		"contact-no":9619850653,
+		"date_of_birth":15091997,
+		"cgpa":3.15
+	},
+	{
+
+		"name":"vivek",
+		"sap-id": 70011015090,
+		"email":"vivek@gmail.com",
+		"contact-no":9930398484,
+		"date_of_birth":17121994,
+		"cgpa":3.0
+	}
+
+	{
+
+		"name":"manan",
+		"sap-id": 70011015091,
+		"email":"manan@gmail.com",
+		"contact-no":9820465366,
+		"date_of_birth":22031997,
+		"cgpa":3.3
+	}
+		{
+
+		"name":"manan",
+		"sap-id": 70011015091,
+		"email":"manan@gmail.com",
+		"contact-no":9820465366,
+		"date_of_birth":22031997,
+		"cgpa":3.3
+	}
+
+			{
+
+		"name":"dhruv",
+		"sap-id": 70011015092,
+		"email":"dhruv@gmail.com",
+		"contact-no":98204,
+		"date_of_birth":10101996,
+		"cgpa":2.3
+	}
+]
+
+/*{
+  "name": ["shivangi","vivek","manan","dhruv"],
+  "sap-id": [70011015089,70011015090,70011015091,70011015092],
+  "email":["svashi1997@gmail.com","vivek@gmail.com","manan@hotmail.com","dhruv@gmail.com"],
+  "contact-no": [70011015089,70011015090,70011015091,70011015092],
+  "date_of_birth": [15091997,17121994,22031997,23121996],
+  "cgpa": [3.11,3.0,3.3,2.3]
+} */
