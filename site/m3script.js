@@ -14,13 +14,13 @@ document.addEventListener("DOMContentLoaded",
 		var arr;
 	        
 	      
-	      
+	      console.log("test1");
 	      var message = "Data not found"; 
 
 	      var i;
-	      for (i = 0; i<res.arr.length;i++)
+	      for (i = 0; i<4;i++)
 	      {
-	      	if(getvalue ==res.arr[i].sap_id || getvalue == res.arr[i].email || getvalue === res.arr[i].contact_no || getvalue === res.arr[i].date_of_birth || getvalue === res.arr[i].cgpa)
+	      	if(getvalue ==res.arr[i].sap_id || getvalue == res.arr[i].email || getvalue == res.arr[i].contact_no || getvalue == res.arr[i].date_of_birth || getvalue === res.arr[i].cgpa)
 	      	{
 	      		message = res.arr[i].name;
 	      	}
