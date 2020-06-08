@@ -1,0 +1,30 @@
+/* Navigation Buttons */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;    
+    .navigation-items {
+        margin-right: 20px;
+        display: flex;
+        .nav-item {
+            background-color: $light-gray-color;
+            color: $dark-gray-color;
+            padding: 20px;
+            &:first-child {
+                border-bottom-left-radius: 3px;
+            }
+            &:last-child {
+                border-bottom-right-radius: 3px;
+            }
+            &:hover {
+                cursor: pointer;
+                background-color: $dark-gray-color;
+                color: $light-gray-color;
+            }
+        }
+    }
+}

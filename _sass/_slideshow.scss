@@ -1,0 +1,48 @@
+/* Slideshow Container */
+.slideshow-container {
+    width: 100%;
+    position: relative;
+    margin-bottom: 50px;
+
+    .image-slides {
+        object-fit: contain;
+        pointer-events: none;
+    }
+
+    .slideshow-content {
+        pointer-events: none;
+    }
+
+}
+
+/* Slideshow Next & Previous Buttons */
+.prev,
+.next {
+    color: $white-color;
+    cursor: pointer;
+    background-color: $dark-gray-color;
+    border-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: -22px;
+    padding: 16px;
+    position: absolute;
+    top: 50%;
+    transition: 0.6s ease;
+    width: auto;
+    outline: none;
+}
+
+/* Next (>) button position to the right */
+.next {
+    right: 0;
+}
+
+/* On hover, change background color of
+   next (>) and previous (<) buttons */
+.prev:hover,
+.next:hover {
+    background-color: $white-color;
+    color: $black-color;
+    opacity: 0.2;
+}

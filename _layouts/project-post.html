@@ -1,0 +1,18 @@
+{% include head.html %}
+
+<body>
+    {% include header.html %}
+    {% include navigation.html %}
+    <main id="main">
+        <section class="container-section">
+            <div class="post-container">
+                <div class="post-content">
+                    {{ content }}
+                </div>
+            </div>
+        </section>
+    </main>
+    {% include footer.html %}
+</body>
+<script src="/assets/js/modal.js"></script>
+</html>
