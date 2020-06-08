@@ -7,7 +7,7 @@ permalink: /projects/:title
 img-preview: /assets/images/projects/personapanels/preview.png
 ---
 
-<h2>Zetron</h2>
+<h2>Data Analysis for Market Research</h2>
 
 <span class="tools">R, Tableau, Microsoft Excel</span>
 
