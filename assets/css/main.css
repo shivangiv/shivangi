@@ -71,7 +71,7 @@ h1,h2,h3,h4,h5,h6,p {
       visibility:hidden;
     }
   }
-  .fade-in{
+  /* .fade-in{
     animation-name:fade-in;
     animation-fill-mode:forwards;
   }
@@ -82,7 +82,7 @@ h1,h2,h3,h4,h5,h6,p {
     100%{
       opacity:1.00;
     }
-  }
+  } */
 
 
 body {
@@ -2940,7 +2940,7 @@ footer .footer-container {
 
 		/* Basic */
 
-			body, input, textarea, select {
+			body, input, textarea, select nav {
 				font-size: 14pt;
 				line-height: 1.75em;
 			}
@@ -2968,7 +2968,7 @@ footer .footer-container {
 
 		/* Basic */
 
-			body, input, textarea, select {
+			body, input, textarea, select nav{
 				font-size: 12pt;
 				line-height: 1.5em;
 			}
@@ -3015,7 +3015,7 @@ footer .footer-container {
 
 		/* Basic */
 
-			body, input, textarea, select {
+			body, input, textarea, select nav {
 				font-size: 13pt;
 				line-height: 1.65em;
 			}
@@ -3062,7 +3062,7 @@ footer .footer-container {
 				overflow-x: hidden;
 			}
 
-			body, input, textarea, select {
+			body, input, textarea, select  nav{
 				font-size: 12.5pt;
 				line-height: 1.5em;
 			}
