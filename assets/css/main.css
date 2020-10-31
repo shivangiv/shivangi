@@ -11,7 +11,7 @@ html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var, b,
+small, strike, em, sub, sup, tt, var, b,
 u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
@@ -170,7 +170,7 @@ html body header h1 span{
 
 }
 
-html body header h2{
+html body header h2 span{
   font-size:16px;
 
 }
@@ -429,8 +429,11 @@ footer .footer-container {
 		font-weight: 400;
 		color: #483949;
 	}
+	h1 em, h2 em, h3 em, h4 em, h5 em, h6 em {
+		font-style: italic;
+	}
 
-	em, i {
+	 em, i {
 		font-style: italic;
 	}
 
@@ -474,6 +477,10 @@ footer .footer-container {
 	p {
 		text-align: justify;
 	}
+	p em {
+		font-style: italic;
+	}
+
 
 	br.clear {
 		clear: both;
@@ -2811,8 +2818,7 @@ footer .footer-container {
 /* Carousel */
 
 	.carousel {
-		position:
-		relative;
+		position:relative;
 		overflow: hidden;
 		padding: 2em 0 2em 0;
 		margin-bottom: 0;
@@ -2912,14 +2918,6 @@ footer .footer-container {
 			.carousel article.loading {
 				opacity: 0;
 			}
-			.carousel .image {
-				position: relative;
-				left: -1em;
-				top: 0;
-				width: auto;
-				margin-right: -2em;
-				margin-bottom: 3em;
-			}
 
 			.carousel article .image {
 				position: relative;
@@ -2929,6 +2927,7 @@ footer .footer-container {
 				margin-right: -2em;
 				margin-bottom: 3em;
 			}
+
 
 			.carousel article p {
 				text-align: center;
