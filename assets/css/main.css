@@ -2924,6 +2924,8 @@ footer .footer-container {
 				left: -1em;
 				top: 0;
 				width: auto;
+				max-width: 100%;
+    		height: auto;
 				margin-right: -2em;
 				margin-bottom: 3em;
 			}
@@ -2939,7 +2941,7 @@ footer .footer-container {
 
 		/* Basic */
 
-			body, input, textarea, select nav {
+			body, input, textarea, select, nav {
 				font-size: 14pt;
 				line-height: 1.75em;
 			}
@@ -2967,7 +2969,7 @@ footer .footer-container {
 
 		/* Basic */
 
-			body, input, textarea, select nav{
+			body, input, textarea, select, nav{
 				font-size: 12pt;
 				line-height: 1.5em;
 			}
@@ -3014,7 +3016,7 @@ footer .footer-container {
 
 		/* Basic */
 
-			body, input, textarea, select nav {
+			body, input, textarea, select, nav {
 				font-size: 13pt;
 				line-height: 1.65em;
 			}
@@ -3061,7 +3063,7 @@ footer .footer-container {
 				overflow-x: hidden;
 			}
 
-			body, input, textarea, select  nav{
+			body, input, textarea, select,  nav{
 				font-size: 12.5pt;
 				line-height: 1.5em;
 			}
