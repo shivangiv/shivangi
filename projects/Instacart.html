@@ -58,15 +58,18 @@
                     <br><br>
                     <h3> Description </h3>
                       <span class="tools"></span>
-                      <p>
-                        <br>
-                        As one of the world’s most influential reading sites, Goodreads provides a platform for people interested in talking about books. It can be hard to find your favourite next book. A lot of recommender systems exist for video content, and it would be nice to have an effective system for books too!
-                        In this project I built a recommender system based on Netflix’s User- Based Collaborative Filter algorithm to predict book recommendations for over 53,424 users with over 1 million ratings.
-                        The data is from Kaggle’s <a href="https://www.kaggle.com/zygmunt/goodbooks-10k">goodbooks dataset</a>. I also compared the results with <a href= "https://www.rdocumentation.org/packages/recommenderlab/versions/0.2-6">recommenderLab’s</a> UBCF implementation and compared results using different user clusters sizes.<br>
-									    </p>
-                       <br><br>
+                      <p><br>
+                        Instacart is a grocery delivery application that works in the following way- users can select products through the app, and then personal shoppers review the order, shop in-store and deliver the products to the users.
+                        We got the data from Instacart's Market Basket Analysis on kaggle.com <a href="https://www.kaggle.com/c/instacart-market-basket-analysis/overview">here</a>.
+                        The Instacart data set is anonymized and contains samples of over 3 million grocery orders from 200,000+ Instacart users.
+                        On its website Instacart has a recommendation system that suggests the users some items to buy again. Our task is to predict which items will be reordered on the next order.
+                        We approach this using 3 methods:<br>
+                        -Logistic Regression: to predict product reorder<br>
+                        -Association Rule Mining: utilizing the apriori algorithm and perform market basket analysis to generate association rules with different values of support and confidence, to predict what products are closely associated with or frequently bought with other products<br>
+                        -Gradient Boosting Model: to predict product reorders as well as produce association rules within the test dataset.
+                        </p>
                        <span class="tools"></span>
-									     <a href=https://github.com/shivangiv/Data-Analytics-Projects/blob/main/RecommenderSystem.Rmd>source code</a>
+									     <a href=https://github.com/shivangiv/Instacart-Analysis>source code</a>
 
         </section>
     </main>
